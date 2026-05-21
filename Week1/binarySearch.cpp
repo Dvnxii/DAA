@@ -47,7 +47,7 @@ int main() {
     if (binarySearch(arr, n, key, comparisons))
         cout << "Key element is present in the array.\n";
     else
-        cout << "Key element is NOT present in the array.\n";
+        cout << "Key element is not present in the array.\n";
 
     cout << "Total number of comparisons: " << comparisons << endl;
 
